@@ -223,15 +223,12 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,
-
-Happy Birthday!
-
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
-
-Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
-
-I love you so much! 💕`;
+    const fullMessage = `YOOOOO ANA,
+    Happy Birthday!
+    
+    Hari ini hari yang kau tunggu bertambah usia mu asik, gimana hari ini btw? udah beradabtasi lah ya di usia kepala dua ini, soo untuk 21 nya semoga kedepannya pasti lebih baik lagi dan bisa lebih happy lagi dan di temenin orang orang yang sayang sama lu juga yang bisa jadi rumah buat lu intinya, gua berterimakasih buat semuanya dan selamat atas 21 tahunnya harus tetep senyum harus bisa bahagia pokoknya kalau masih sedih gpp tapi jgn lama lama, doa yang terbaik untuk mu kawan. 
+    
+    SEKALI LAGI HAPPY BIRTDAY ANA`;
     
     // Clear content and start fresh
     messageContent.innerHTML = '';
@@ -266,7 +263,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `YOOOOO ANA,<br><br>Happy Birthday!<br><br> Hari ini hari yang kau tunggu bertambah usia mu asik, gimana hari ini btw? udah beradabtasi lah ya di usia kepala dua ini, soo untuk 21 nya semoga kedepannya pasti lebih baik lagi dan bisa lebih happy lagi dan di temenin orang orang yang sayang sama lu juga yang bisa jadi rumah buat lu intinya, gua berterimakasih buat semuanya dan selamat atas 21 tahunnya harus tetep senyum harus bisa bahagia pokoknya kalau masih sedih gpp tapi jgn lama lama, doa yang terbaik untuk mu kawan. SEKALI LAGI HAPPY BIRTDAY ANA`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -563,7 +560,6 @@ function initializeMusicPlayer() {
             <div class="playlist-controls">
                 <button class="playlist-btn active" data-playlist="1">Playlist 1</button>
                 <button class="playlist-btn" data-playlist="2">Playlist 2</button>
-                <button class="playlist-btn" data-playlist="3">Playlist 3</button>
             </div>
             <div class="music-info">
                 <div class="current-playlist">Now Playing: Birthday Special Mix</div>
@@ -612,20 +608,14 @@ function loadSpotifyPlaylist(playlistNumber) {
             // Ganti dengan playlist pertama kamu
             embedUrl: 'https://open.spotify.com/embed/playlist/37i9dQZF1DWYtQSOiZF6hj?si=0b945793c2934ba1',
             name: 'Birthday Special Mix',
-            description: 'Lagu-lagu spesial untuk hari istimewa kamu ✨'
+            description: 'Lagu-lagu Pibesdey'
         },
         2: {
             // Ganti dengan playlist kedua kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/3gPSenyxZMdB3A54HeEruz?si=6b4dec830d4f4a48',
-            name: 'Love Songs Collection',
-            description: 'Koleksi lagu cinta terbaik untuk kita ❤️'
+            embedUrl: 'https://open.spotify.com/embed/playlist/56RK6tx9wHZjz9oVXKQcfl?si=9Kt-Pg34RzWzPJdR8IG0SQ',
+            name: 'LAGU ana pokoknya',
+            description: 'Ngga tau ini bener atau ngga lagu nya gua taro ajalah hehe'
         },
-        3: {
-            // Ganti dengan playlist ketiga kamu
-            embedUrl: 'https://open.spotify.com/embed/playlist/4dlQ4JHE6abxv38aae2HL1?si=95730613199e4dad',
-            name: 'Happy Memories',
-            description: 'Lagu-lagu yang mengingatkan kenangan indah 🌟'
-        }
     };
     
     const selectedPlaylist = playlists[playlistNumber];
