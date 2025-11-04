@@ -319,35 +319,35 @@ function startPhotoShow() {
     // Foto lokal dari folder images
     const photos = [
         {
-            text: 'Our First Date 💕',
+            text: 'ngga tau ini ada di ig',
             image: './images/photo1.jpg'
         },
         {
-            text: 'Birthday Moment 🎂',
+            text: 'ini juga ss di ig',
             image: './images/photo2.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
+            text: 'sama',
             image: './images/photo3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
+            text: 'ini juga',
             image: './images/photo4.jpg'
         },
         {
-            text: 'Sweet Memories 🥰',
+            text: 'lah kepotong',
             image: './images/photo5.jpg'
         },
         {
-            text: 'Laugh Together 😂',
+            text: 'gua ga da foto lu jdi ss aja',
             image: './images/photo6.jpg'
         },
         {
-            text: 'Perfect Day ☀️',
+            text: 'yak sama',
             image: './images/photo7.jpg'
         },
         {
-            text: 'Love Forever 💖',
+            text: 'cakep cakep',
             image: './images/photo8.jpg'
         }
     ];
@@ -375,7 +375,7 @@ function startPhotoShow() {
             <div class="photo-frames-container">
                 ${framesHTML}
             </div>
-            <div class="photo-strip-footer">💕 BIRTHDAY MEMORIES 💕</div>
+            <div class="photo-strip-footer">Foto lu di ig ini</div>
         </div>
         <div class="scroll-indicator">⬇ Scroll Down ⬇</div>
     `;
